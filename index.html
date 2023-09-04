@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CS Desarrollo web Full</title>
+    </head>
+<body>
+    <!-- Seccion inicio-->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                <h1><span>{</span>CS<span>}</span></h1>
+                <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccion(this)">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccion(this)">SOBRE MI</a></li>
+                        <li><a href="#servicios" onclick="seleccion(this)">HERRAMIENTAS</a></li>
+                        <li><a href="#mistrabajos" onclick="seleccion(this)">MIS TRABAJOS</a></li>
+                        <li><a href="#certificados" onclick="seleccion(this)">CERTIFICACIONES</a></li>
+                    </ul>
+                </nav>
+
+                <!--iconos barra menu responsive -->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <!-- iconos redes sociales -->
+                <div id="redes" class="redes">
+                    <a href="https://www.facebook.com/profile.php?id=100081192534283"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://mobile.twitter.com/clst_sandoval"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://api.whatsapp.com/send/?phone=3795015135&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.youtube.com/@celestesandoval6626"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            </header>
+            <div class="presentacion">
+
+                 <h2>"Tejiendo el futuro, una línea de código a la vez." <span>¡Bienvenidos a mi espacio digital!</span></h2>
+                <p class="descripcion">Te invito a conocerme más!</p>
+                <a href="#mistrabajos">Conocer mis trabajos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion Sobre mi-->
+    <section id="sobremi">
+        <div class="foto-presentacion">
+            <img src="./img/celesteS.jpg" alt="Foto Presentacion">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-sobremi">Sobre mi</p>
+            <h2>Hola soy <span>Celeste Sandoval</span></h2>
+            <h3>Estudiante de Lincenciatura en Sistemas de Información  y Desarrolladora Web Full Stack.</h3>
+            <p>Desde que comencé mi formación académica, he tenido una profunda fascinación por el desarrollo de software y las tecnologías de Información.
+               A lo largo de mis estudios, he adquirido habilidades en lenguajes de programación como Java, Vb.Net, Javascript, php, phyton, he trabajado con HTML, css, node.js. 
+               Y me he familiarizado con herramientas de diseño como Photoshop, Figma, Canva. 
+               Estoy ansiosa de llevar estas habilidades al mundo profesional y continuar mi aprendizaje en un entorno práctico.
+               Me considero proactiva, sumamente comprometida con lo que hago y siempre estoy buscando oportunidades para crecer y mejorar.</p>
+            <p>Te invito a ver <b>MIS TRABAJOS</b>, allí verás algunos de mis proyectos en materia de programación.</p>
+            <a href="docs/Cv-09-2023.pdf">Ver mi CV</a>
+        </div>
+    </section>
+
+    <!-- Seccion servicios-->
+    <section id="servicios">
+        <h3 class="titulo-servicio">HERRAMIENTAS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-word"></i></span>
+                <h4>Paquete Officce</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Word-</li>
+                    <li>Excel-</li>
+                    <li>PowerPoint-</li>
+                    <li>Access</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p></p>
+            </div>  
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-landmark"></i></span>
+                <h4>Sistema Tango Gestion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Módulos-</li>
+                    <li>Informes-</li>
+                    <li>Configuración</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <p>Módulos: Ventas, compras, stock, proveedores, fondos, sueldos, control de horarios, contabilidad, cash flow.</p>
+            </div> 
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                <h4>Diseño</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Paint-</li>
+                    <li>PicsArt-</li>
+                    <li>PhotoShop-</li>
+                    <li>Figma-</li>
+                    <li>Canva</li>
+                </ul>
+                <p>Edición de imagenes, creación de logos y otros.</p>
+            </div> 
+        </div>
+
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Programación y lenguajes</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Java-</li>
+                    <li>Vb.Net-</li>
+                    <li>Phyton</li>
+                    <li>Php</li>
+                    <li>SQL</li>
+                </ul>
+                 <p>Html-Css</p> 
+            </div>  
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-robot"></i></span>
+                <h4>Inteligencia Artificial</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Lexica-</li>
+                    <li>ChatGPT(3.5)-</li>
+                    <li>Llama2</li>
+                    <li></li>
+                    <li> </li>
+                </ul>
+            </div> 
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                <h4>CASE</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Enterprise Architect-</li>
+                    <li>StarUML-</li>
+                    <li>Rational Rose</li>
+                    <li> </li>
+                    <li> </li>
+                </ul>
+            </div> 
+        </div>
+        
+    </section>
+
+     <!-- Seccion habilidades-->
+     <div class="contenedor-habilidades" id="habilidades">
+         <h3>HABILIDADES</h3>
+         <div class="habilidad">
+             <div class="info">
+                 <p><span class="lista"></span>Html & Css</p>
+                 <span class="porcentaje">95%</span>
+             </div>
+             <div class="barra">
+                 <div id="html" class="progreso1"></div>
+             </div>
+         </div>
+
+         <div class="habilidad">
+            <div class="info">
+                <p><span class="lista"></span>Java Script</p>
+                <span class="porcentaje">60%</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="progreso2"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista"></span>Base de Datos</p>
+                <span class="porcentaje">50%</span>
+            </div>
+            <div class="barra">
+                <div id="bd" class="progreso3"></div>
+            </div>
+        </div>
+
+        <div class="habilidad">
+            <div class="info">
+                <p><span class="lista"></span>GitHub</p>
+                <span class="porcentaje">70%</span>
+            </div>
+            <div class="barra">
+                <div id="git" class="progreso4"></div>
+            </div>
+        </div>
+     </div>
+
+      <!-- Seccion Mis trabajos-->
+      <section id="mistrabajos">
+          <h3 class="titulo-trabajos">MIS TRABAJOS</h3>
+          <div class="fila">
+            <div class="trabajo">
+                <a href="https://youtu.be/pBMjsaVo0xo"><img src="/img/patron_iterador.jpg" alt="Patrones de diseño Javascript"></a>
+                <div class="info">
+                    <h1>Patrones de diseño- el patrón Iterador</h1>
+                    <p>App web implementando el patrón iterador con Javascript</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="fila">
+            <div class="trabajo">
+                <a href="https://youtu.be/fuixeQIdDW0"><img src="/img/analizador_sintactico.jpg" alt="Analizador sintactico Java"></a>
+                <div class="info">
+                    <h1>Analizador sintáctico y calculadora</h1>
+                    <p>App Java con netbeans</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="fila">
+            <div class="trabajo">
+                <a href="https://youtu.be/yUsy-Ov3-es"><img src="/img/sitio_web_NewTalents.jpg" alt="Sitio Web php"></a> 
+                <div class="info">
+                    <h1>Sitio Web front-end</h1>
+                    <p>Utilizando Codeigniter con php+bootstrap</p>
+                </div>
+            </div>
+          </div>
+  
+      </section>
+
+         <!-- Seccion Mis certificados-->
+         <section id="certificados">
+            <h3 class="titulo-trabajos">CERTIFICACIONES</h3>
+            <div class="fila">
+                <div class="trabajo">
+                    <img src="/img/cert/secundario.jpg" alt="Certificado Nivel Secundario">
+                </div>
+                <div class="trabajo">
+                    <img src="/img/cert/OPC.jpg" alt="Certificado Operador de Pc">
+                </div>
+                <div class="trabajo">
+                    <img src="/img/cert/Alice.jpg" alt="Certificado Alice">
+                </div> 
+            </div>
+
+            <div class="fila"> 
+                <div class="trabajo">
+                    <img src="/img/cert/auxiliarAdmin.jpg" alt="Certificado Auxiliar Administrativo">
+                </div>
+                <div class="trabajo">
+                    <img src="/img/cert/expertoContable.jpg" alt="Tango gestión">
+                </div>
+                <div class="trabajo">
+                    <img src="/img/cert/electricidad2M.jpg" alt="Elitricidad Básica Segundo Modulo">
+                </div>
+            </div>
+
+            <div class="fila"> 
+                <div class="trabajo">
+                    <img src="/img/cert/soldadura.jpg" alt="Certificado Soldadura básica">
+                </div>
+                <div class="trabajo">
+                    <img src="/img/cert/certificado_node.jpg" alt="Certificado Javascript-node">
+                </div>
+                <div class="trabajo">
+                    <img src="/img/cert/certificado_react.jpg" alt="Certificado react">
+                </div>
+            </div>
+
+        </section>
+
+      
+
+    <!-- Seccion Footer-->
+    <footer>
+        <p>  Id Card &copy; Celeste Sandoval- Versión Septiembre 2023</p>
+        <div id="redes">
+            <a href="https://www.facebook.com/profile.php?id=100081192534283"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://mobile.twitter.com/clst_sandoval"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=3795015135&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.youtube.com/@celestesandoval6626"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+</html>

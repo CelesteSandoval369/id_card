@@ -294,7 +294,7 @@ html{
 
 /*--Estilos para la seccion habilidades--*/
 .contenedor-habilidades{
-    background: linear-gradient(rgba(39, 17, 39, 0.8), rgba(33, 16,16, .8)), url("/img/habilidades1.jpg");
+    background: linear-gradient(rgba(39, 17, 39, 0.8), rgba(33, 16,16, .8)), url("../img/habilidades1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
